@@ -1,0 +1,23 @@
+# asks for the length of the rectangle
+print("Whats the length of your rectangle?")
+length = int(input())
+
+# asks for the width of the rectangle
+print("Whats the width of your rectangle?")
+width = int(input())
+
+#calculates the are using the formula A = L * W
+area = length * width
+
+# asks for the user to guess the area of the rectangle
+print("Whats the are of your rectangle")
+guess = int(input())
+
+# if the guess is correct it prints out "correct"
+if guess == area:
+  print("Correct")
+
+# If the guess is wrong it prints out "incorrect" and shows the area of the rectangle
+else: 
+  print("Incorrect")
+  print ("the area of your rectangle is", area)
